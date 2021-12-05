@@ -34,7 +34,7 @@ def process_ratings(rating_list: List[str], bit_position: int, keep_most: bool) 
 
 
 if __name__ == "__main__":
-    with open("day3_1.txt") as data:
+    with open("day3.txt") as data:
         ratings = data.readlines()
         oxygen_rating_binary = process_ratings(ratings, 0, True)
         co2_rating_binary = process_ratings(ratings, 0, False)

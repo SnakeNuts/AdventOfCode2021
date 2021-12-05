@@ -65,7 +65,7 @@ def read_bingo_card(input_file: TextIO) -> Optional[Dict[Tuple[int, int], int]]:
 
 
 if __name__ == "__main__":
-    with open("day4_1.txt") as data:
+    with open("day4.txt") as data:
         bingo_calls = data.readline().split(",")
         bingo_cards: List[Bingo_card] = list()
         while True:

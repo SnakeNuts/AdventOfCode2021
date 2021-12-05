@@ -4,7 +4,7 @@ if __name__ == "__main__":
     flat_data = []
     sliding_groups = {}
 
-    data = open("day1_1.txt")
+    data = open("day1.txt")
     for line in data.readlines():
         value = int(line.strip())
         flat_data.append(value)

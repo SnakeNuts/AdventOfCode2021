@@ -1,4 +1,4 @@
-with open("day2_1.txt") as data:
+with open("day2.txt") as data:
     horizontal_pos = 0
     depth = 0
     aim = 0

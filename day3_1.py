@@ -1,6 +1,6 @@
 true_bit_count = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
 
-with open("day3_1.txt") as data:
+with open("day3.txt") as data:
     for data_line in data.readlines():
         bit_index = 0
         for bit in data_line:
